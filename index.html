@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tỏ Tình</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <h1 class="logo">Trang Tỏ Tình</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Trang Chủ</a></li>
+                    <li><a href="#message">Tỏ Tình</a></li>
+                    <li><a href="#about">Về Chúng Tôi</a></li>
+                    <li><a href="#contact">Liên Hệ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Chào bạn đến với Trang Web Tỏ Tình!</h2>
+            <p>Cùng khám phá cách thể hiện tình yêu của bạn một cách thật ngọt ngào và lãng mạn.</p>
+            <a href="#message" class="cta-button">Tỏ Tình Ngay</a>
+        </div>
+    </section>
+
+    <section id="about" class="about-us">
+        <div class="about-content">
+            <h2>Về Chúng Tôi</h2>
+            <p>Trang web này được tạo ra với mục đích giúp bạn bày tỏ tình cảm một cách đầy cảm xúc và sáng tạo nhất.</p>
+            <p>Chúng tôi cam kết sẽ mang lại cho bạn trải nghiệm tuyệt vời nhất với giao diện thân thiện và dễ sử dụng.</p>
+            <img src="love.jpg" alt="Tình yêu" class="about-image">
+        </div>
+    </section>
+
+    <section id="message" class="message">
+        <div class="message-box">
+            <h2>Hãy viết lời tỏ tình của bạn</h2>
+            <textarea id="message-input" placeholder="Hãy viết lời tỏ tình của bạn ở đây..." rows="10"></textarea>
+            <div class="message-actions">
+                <button id="submit-btn">Gửi Lời Tỏ Tình</button>
+                <button id="clear-btn">Xóa</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="result" class="result">
+        <div class="result-content">
+            <h2>Lời Tỏ Tình Của Bạn</h2>
+            <div id="result-message"></div>
+            <div id="result-image" class="result-image"></div>
+            <button id="reset-btn">Gửi Lại</button>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Liên Hệ</h2>
+        <form id="contact-form">
+            <label for="name">Tên của bạn:</label>
+            <input type="text" id="name" name="name" placeholder="Nhập tên của bạn" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Nhập email của bạn" required>
+            <label for="message-contact">Lời nhắn:</label>
+            <textarea id="message-contact" name="message-contact" placeholder="Lời nhắn của bạn" rows="5" required></textarea>
+            <button type="submit">Gửi Liên Hệ</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Trang Web Tỏ Tình. Tất cả các quyền được bảo lưu.</p>
+        <div class="social-media">
+            <a href="#" class="social-icon">FB</a>
+            <a href="#" class="social-icon">IG</a>
+            <a href="#" class="social-icon">Twitter</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
